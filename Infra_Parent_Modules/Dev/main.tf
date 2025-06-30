@@ -1,4 +1,4 @@
-# in this file we will create the resources for the ToDo app infrastructure in Azure using Terraform
+# this is the infra code
 module "resource_group" {
   source = "../Child_Modules/Azurerm_Resource_Group"
 
